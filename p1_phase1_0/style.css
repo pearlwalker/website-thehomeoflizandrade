@@ -1,0 +1,26 @@
+#grid {
+    display: grid;
+    width: 1280px;
+    grid-template-columns: [page-start title-start] 5fr [sidebar-start caption1-start] 20fr [caption1-end caption2-start] 25fr [caption2-end sidebar-end title-end text-start photo3-start]45fr [text-end] 5fr [ photo3-end page-end];
+    grid-template-rows: [page-start title-start date-start] 10fr [title-end date-end photo1-start text-start] 30fr [photo1-end caption1-start caption2-start] 10fr [caption1-end caption2-end photo3-start] 25fr [photo3-end text-end] 25fr [photo4-start photo5-start];
+}
+
+header{
+    display:grid;
+}
+#projecttitle {
+    display:grid;
+    background-color: mediumpurple;
+}
+#dates{
+    background-color: coral;
+}
+#articletitle{
+    background-color: mediumorchid;
+}
+#articlesubtitle{
+    background-color: aquamarine;
+}
+#maintext{
+    background-color: burlywood;
+}
