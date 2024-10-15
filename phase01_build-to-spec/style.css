@@ -2,34 +2,67 @@
     display: grid;
 }
 
-body{
+body {
     width: 1000px
 }
+
 .grid_container {
     display: grid;
-    grid-template-columns: 5vmin 20vmin 25vmin 45vmin 7.5vmin;
+    grid-template-columns: 5vmin 20vmin 20vmin 45vmin 10vmin;
     grid-template-rows: 10vmin 30vmin 10vmin 25vmin 25vmin;
+    background-color: rgb(240,240,240);
 }
 
 #title {
     grid-area: 1 / 1 / span 1 / span 3;
-    width:100%;
-    height: 100%;
-    background-color: red;
+    height: 55%;
+    background-color: rgb(153, 153, 153);
 
 }
 
 #date {
-    grid-area: 1 / 4/ 2 /5;
-    background-color: coral;
+    grid-area: 1 / 4/ span 1 / span 1;
+    height: 35%;
+    align-content: baseline;
+    background-color: rgb(176, 176, 176)
 }
 
 #content_main {
-    grid-area: 2 / 4 / 5 / 5;
-    background-color: aquamarine;
+    grid-area: 2 / 4 / span 3 / span 1;
+    background-color: rgb(201, 201, 201);
 }
 
 #content_media {
-    grid-area: 2 / 2 / 6 / 4;
-    background-color: plum;
+    grid-area: 2 / 2 / span 4 / span 2;
+    background-color: rgb(182, 182, 182);
+}
+
+#photo1 {
+    grid-area: 2 / 2 / span 1 /span 2;
+    background-color: rgb(70 70 70);
+}
+
+#caption1 {
+    grid-area: 3 / 2 / span 1 / span 1;
+    background-color: rgb(200 200 200);
+}
+
+#caption2 {
+    grid-area: 3 / 3 / span 1 / span 1;
+    background-color: rgb(230 230 230);
+}
+
+#photo2 {
+    grid-area: 4 / 2 / span 1 /span 2;
+    background-color: rgb(90 90 90);
+}
+
+#photo3 {
+    grid-area: 5/ 2 / span 1 /span 2;
+    background-color: rgb(50 50 50);
+}
+
+#photo4 {
+    grid-area: 5 / 4 / span 1 /span 2;
+    background-color: rgb(150 150 150);
 }
