@@ -1,8 +1,8 @@
 #grid {
     display: grid;
     width: 1280px;
-    grid-template-columns: [page-start title-start] 5fr [sidebar-start caption1-start] 20fr [caption1-end caption2-start] 25fr [caption2-end sidebar-end title-end text-start photo3-start]45fr [text-end] 5fr [ photo3-end page-end];
-    grid-template-rows: [page-start title-start date-start] 10fr [title-end date-end photo1-start text-start] 30fr [photo1-end caption1-start caption2-start] 10fr [caption1-end caption2-end photo3-start] 25fr [photo3-end text-end] 25fr [photo4-start photo5-start];
+    grid-template-columns: [pageside-start titleside-start] 5fr [section1side-start caption1side-start] 20fr [caption1side-end caption2side-start] 25fr [caption2side-end section1side-end titleside-end section2side-start photo4side-start]45fr [section2side-end] 5fr [ photo4side-end pageside-end];
+    grid-template-rows: [pageline-start titleline-start dateline-start]10fr [titleline-end dateline-end photo1line-start textline-start] 30fr [photo1line-end captionline-start] 10fr [captionline-end photo2line-start]25fr [photo2line-end textline-end photo3line-start photo4line-start] 25fr [photo3line-end photo4line-end pageline-end];
 }
 
 header{
