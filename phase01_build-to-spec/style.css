@@ -2,30 +2,45 @@
     display: grid;
 }
 
+@media screen and (max-width: 450) {
+    body {
+        width: auto;
+    }
+    .grid_container{
+        grid-template-columns:max-content;
+        grid-template-rows: max-content;
+    }
+}
+@media screen and (min-width: 800) {
+    body {
+        width:auto;
+    }
+    .grid_container {
+        grid-template-columns: 5% 20% 25% 45% 5%;
+        grid-template-rows: 10% 30% 10% 25% 25%;
+    }
+}
 .grid_container {
-    display: grid;
-    width: 1280px;
     grid-template-columns: 5% 20% 25% 45% 5%;
     grid-template-rows: 10% 30% 10% 25% 25%;
 }
 
-#projecttitle {
+#title {
+    grid-area: 1 / 1 / 2 / 4;
+    background-color: red;
 }
 
-#dates {
-    display: grid;
-
+#date {
+    grid-area: 1 / 4/ 2 /5;
     background-color: coral;
 }
 
-#articletitle {
-    background-color: mediumorchid;
-}
-
-#articlesubtitle {
+#content_main {
+    grid-area: 2 / 4 / 5 / 5;
     background-color: aquamarine;
 }
 
-#maintext {
-    background-color: burlywood;
+#content_media {
+    grid-area: 2 / 2 / 6 / 4;
+    background-color: plum;
 }
