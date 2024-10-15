@@ -1,26 +1,31 @@
-#grid {
+* {
     display: grid;
-    width: 1280px;
-    grid-template-columns: [pageside-start titleside-start] 5fr [section1side-start caption1side-start] 20fr [caption1side-end caption2side-start] 25fr [caption2side-end section1side-end titleside-end section2side-start photo4side-start]45fr [section2side-end] 5fr [ photo4side-end pageside-end];
-    grid-template-rows: [pageline-start titleline-start dateline-start]10fr [titleline-end dateline-end photo1line-start textline-start] 30fr [photo1line-end captionline-start] 10fr [captionline-end photo2line-start]25fr [photo2line-end textline-end photo3line-start photo4line-start] 25fr [photo3line-end photo4line-end pageline-end];
 }
 
-header{
-    display:grid;
+.grid_container {
+    display: grid;
+    width: 1280px;
+    grid-template-columns: 5% 20% 25% 45% 5%;
+    grid-template-rows: 10% 30% 10% 25% 25%;
 }
+
 #projecttitle {
-    display:grid;
-    background-color: mediumpurple;
 }
-#dates{
+
+#dates {
+    display: grid;
+
     background-color: coral;
 }
-#articletitle{
+
+#articletitle {
     background-color: mediumorchid;
 }
-#articlesubtitle{
+
+#articlesubtitle {
     background-color: aquamarine;
 }
-#maintext{
+
+#maintext {
     background-color: burlywood;
 }
