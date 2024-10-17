@@ -66,3 +66,13 @@ body {
     grid-area: 5 / 4 / span 1 /span 2;
     background-color: rgb(150 150 150);
 }
+
+#heading{
+    grid-area: 1 / 1 / span 1 / span 2;
+}
+#subheading {
+    grid-area: 2 / 1 / span 1 / span 1;
+}
+#text {
+    grid-area: 3 / 1 / span 10 / span 1;
+}
