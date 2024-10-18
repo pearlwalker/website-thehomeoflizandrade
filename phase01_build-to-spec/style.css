@@ -69,10 +69,15 @@ body {
 
 #heading{
     grid-area: 1 / 1 / span 1 / span 2;
+    padding: 1em 3em 0em 1em;
 }
 #subheading {
     grid-area: 2 / 1 / span 1 / span 1;
+    padding: 0em 2em 0em 1em;
 }
 #text {
     grid-area: 3 / 1 / span 10 / span 1;
+    padding: 0em  1em  1em  1em;
+    font-size:95%;
+    
 }
