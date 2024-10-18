@@ -15,15 +15,22 @@ body {
 
 #title {
     grid-area: 1 / 1 / span 1 / span 3;
-    height: 55%;
-    background-color: rgb(153, 153, 153);
-
+    height:100%;
+    background-color: rgb(28, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #date {
     grid-area: 1 / 4/ span 1 / span 1;
     height: 35%;
-    align-content: baseline;
+    display: flex;
+    align-self: flex-end;
+    padding:0.5em 1em 0em 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 140%;
     background-color: rgb(176, 176, 176)
 }
 
@@ -34,37 +41,59 @@ body {
 
 #content_media {
     grid-area: 2 / 2 / span 4 / span 2;
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(202, 200, 196);
 }
 
 #photo1 {
     grid-area: 2 / 2 / span 1 /span 2;
-    background-color: rgb(70 70 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30,15,0);
 }
 
 #caption1 {
     grid-area: 3 / 2 / span 1 / span 1;
-    background-color: rgb(200 200 200);
+    padding: 0.5em 0.5em 0.5em 0em;
+    font-size: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    align-self:center;
 }
 
 #caption2 {
     grid-area: 3 / 3 / span 1 / span 1;
-    background-color: rgb(230 230 230);
+    padding: 0.5em 0.5em 0.5em 0em;
+    font-size: 80%;
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 #photo2 {
     grid-area: 4 / 2 / span 1 /span 2;
-    background-color: rgb(90 90 90);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30,15,0);
 }
 
 #photo3 {
     grid-area: 5/ 2 / span 1 /span 2;
-    background-color: rgb(50 50 50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30,15,0);
+margin-left: 2em;
 }
 
 #photo4 {
     grid-area: 5 / 4 / span 1 /span 2;
-    background-color: rgb(150 150 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30,15,0);
+    overflow: hidden;
+    margin-left: 1em;
 }
 
 #heading{
