@@ -1,7 +1,11 @@
-body {
-    width: 1000px
-}
 
+*{
+    display: grid;
+}
+body {
+    width: 1000px;
+
+}
 .grid_container {
     display: grid;
     grid-template-columns: 5vmin 20vmin 20vmin 45vmin 10vmin;
@@ -50,8 +54,7 @@ body {
 }
 
 #date {
-
-    grid-area: 1 / 4/ span 1 / span 2;
+    grid-area: 1 / 4/ span 1 / span 1;
     height: 35%;
     display: flex;
     align-self: flex-end;
