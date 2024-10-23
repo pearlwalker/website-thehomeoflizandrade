@@ -1,16 +1,17 @@
-
-*{
+* {
     display: grid;
 }
+
 body {
     width: 1000px;
 
 }
+
 .grid_container {
     display: grid;
     grid-template-columns: 5vmin 20vmin 20vmin 45vmin 10vmin;
     grid-template-rows: 10vmin 4vmin 30vmin 10vmin 25vmin 25vmin;
-    background-color: rgb(129, 126, 122);
+    background-color: rgb(109, 129, 119);
 }
 
 #title {
@@ -23,12 +24,11 @@ body {
 
 #navbar {
     grid-area: 2 / 1 / span 1 / span 5;
-    background-color: rgb(216, 213, 213);
-    border-top: 5px solid rgb(25, 2, 2);
-    border-bottom: 5px solid rgb(25, 2, 2);
+    background-color: rgb(180, 180, 180);
+    border-top: 3px solid rgb(27, 26, 24);
+    border-bottom: 4px solid rgb(27, 26, 24);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-flex;
-
 }
 
 #navbar a {
@@ -63,18 +63,18 @@ body {
     font-style: italic;
 
     font-size: 140%;
-    background-color: rgb(212, 212, 211);
+    background-color: rgb(180, 180, 128);
 }
 
 #content_main {
     grid-area: 3 / 4 / span 3 / span 1;
-    background-color: rgb(242, 242, 241);
+    background-color: rgb(212, 212, 128);
 
 }
 
 #content_media {
     grid-area: 3 / 2 / span 4 / span 2;
-    background-color: rgb(212, 212, 211);
+    background-color: rgb(230,230,230);
 }
 
 #photo1 {
@@ -82,7 +82,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(30, 15, 0);
+    background-color: rgb(27, 26, 24);
 }
 
 #caption1 {
@@ -107,7 +107,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(30, 15, 0);
+    background-color: rgb(27, 26, 24);
 }
 
 #photo3 {
@@ -115,7 +115,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(30, 15, 0);
+    background-color: rgb(27, 26, 24);
 
 }
 
@@ -124,7 +124,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(30, 15, 0);
+    background-color: rgb(27, 26, 24);
     overflow: hidden;
 }
 
@@ -142,5 +142,4 @@ body {
     grid-area: 4 / 1 / span 10 / span 1;
     padding: 0em 1em 1em 1em;
     font-size: 95%;
-
 }
