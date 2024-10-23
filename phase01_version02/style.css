@@ -1,0 +1,52 @@
+/*Default display: phone screen*/
+
+.grid_container {
+    display: grid;
+    background-color: yellow;
+}
+
+header {
+    color: black;
+}
+
+main {
+    color: darkkhaki;
+}
+
+footer {
+    color: cadetblue;
+}
+
+@media only screen and (min-width: 768px) {
+    /*Display for medium devices: tablets*/
+    .grid_container {
+        display: grid;
+        background-color: orange;
+    }
+    header {
+        color: black;
+    }
+    main {
+        color: darkkhaki;
+    }
+    footer {
+        color: cadetblue;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /*Display for large devices: laptop/desktop*/
+    .grid_container {
+        display: grid;
+        background-color: red;
+    }
+    header {
+        color: black;
+    }
+    main {
+        color: darkkhaki;
+    }
+    footer {
+        color: cadetblue;
+    }
+}
