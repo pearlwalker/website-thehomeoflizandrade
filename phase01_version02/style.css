@@ -5,6 +5,11 @@
     background-color: yellow;
 }
 
+body {
+    width: fit-content;
+    padding: 0% 0% 0% 0%;
+}
+
 header {
     color: black;
 }
@@ -18,35 +23,53 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+
     /*Display for medium devices: tablets*/
     .grid_container {
         display: grid;
         background-color: orange;
     }
+
+    body {
+        width: fit-content;
+        padding: 0% 0% 1% 0%;
+    }
+
     header {
         color: black;
     }
+
     main {
-        color: darkkhaki;
+        color: black;
     }
+
     footer {
-        color: cadetblue;
+        color: black;
     }
 }
 
 @media only screen and (min-width: 1024px) {
+
     /*Display for large devices: laptop/desktop*/
     .grid_container {
         display: grid;
         background-color: red;
     }
+
+    body {
+        width: fit-content;
+        padding: 1% 7.5% 2% 7.5%;
+    }
+
     header {
         color: black;
     }
+
     main {
-        color: darkkhaki;
+        color: black;
     }
+
     footer {
-        color: cadetblue;
+        color: black;
     }
 }
