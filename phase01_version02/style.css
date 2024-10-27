@@ -1,14 +1,23 @@
 /*Default display: phone screen*/
-
 .grid_container {
     display: grid;
-    grid-template-rows: 5% 1% 4% 80% 10%;
+    grid-template-rows: 6% 2% 5% 77% 10%;
+    /*Title, gap, NavBar, Main, Footer*/
     background-color: yellow;
+    font-family: sans-serif;
 }
 
 body {
     width: fit-content;
     padding: 0% 0% 0% 0%;
+}
+
+main {
+    color: darkkhaki;
+}
+
+footer {
+    color: cadetblue;
 }
 
 #page_title {
@@ -18,14 +27,6 @@ body {
 
 #navbar {
     grid-row: 3/4;
-}
-
-main {
-    color: darkkhaki;
-}
-
-footer {
-    color: cadetblue;
 }
 
 @media only screen and (min-width: 768px) {
