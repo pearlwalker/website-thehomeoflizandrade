@@ -29,6 +29,12 @@ footer {
     grid-row: 3/4;
 }
 
+.a_bio {
+    list-style-type: none;
+    padding: 0rem;
+    margin: 0.5rem;
+}
+
 @media only screen and (min-width: 768px) {
 
     /*Display for medium devices: tablets*/
@@ -52,6 +58,12 @@ footer {
 
     footer {
         color: black;
+    }
+
+    .a_bio {
+        list-style-type: none;
+        padding: 0rem;
+        margin: 0.5rem;
     }
 }
 
@@ -78,5 +90,11 @@ footer {
 
     footer {
         color: black;
+    }
+
+    .a_bio {
+        list-style-type: none;
+        padding: 0rem;
+        margin: 0.5rem;
     }
 }
