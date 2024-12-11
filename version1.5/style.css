@@ -16,33 +16,45 @@ main {
 
 /*Formatting for all Articles*/
 article {
-    padding: 0.5rem;
-    margin: 0rem 2rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
 /*The Home of Liz Andrade*/
 #page_title {
     color: black;
     align-self: center;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem -1rem 1rem;
+    font-size: 2rem;
 }
 
 /*Navbar for section links*/
 #navbar {
     align-self: center;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0.25rem;
 }
 
 /*Article/Section titles*/
-.a_title {
-    align-self: center;
+#a1_title {
+    text-align: center;
+    padding: 1rem 3rem 1rem 3rem;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+#a1_subheading {
+    padding: 1rem 3rem 1rem 3rem;
+    margin: auto;
+    text-align: justify;
 }
 
 /*Liz image in Article02*/
 #liz_bio {
     /**/
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 12rem 12rem 12rem 12rem;
     margin: 1rem 1rem 1rem 1rem;
-    width: 50%;
-    height: 40%;
     align-self: center;
 
     /*Text Styling*/
@@ -58,10 +70,8 @@ article {
 }
 
 #marielle_bio {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 12rem 12rem 12rem 12rem;
     margin: 1rem 1rem 1rem 1rem;
-    width: 50%;
-    height: 40%;
     align-self: center;
 
     color: lightcyan;
@@ -77,10 +87,8 @@ article {
 }
 
 #rui_bio {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 12rem 12rem 12rem 12rem;
     margin: 1rem 1rem 1rem 1rem;
-    width: 50%;
-    height: 40%;
     align-self: center;
 
     color: lightcyan;
