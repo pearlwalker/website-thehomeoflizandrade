@@ -2,12 +2,13 @@
 .grid_container {
     display: flex;
     flex-flow: column wrap;
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(139, 163, 161);
 }
 
 body {
     width: fit-content;
-    background-color: rgb(200, 200, 200);
+    /*background-color: rgb(174, 204, 194);*/
+    background-color: lemonchiffon;
 }
 
 main {
@@ -20,6 +21,12 @@ article {
     margin: 1rem 2rem 1rem 2rem;
 }
 
+#section1 {
+    background-image: url("media/header1.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
 /*The Home of Liz Andrade*/
 #page_title {
     color: black;
@@ -27,13 +34,43 @@ article {
     padding: 1rem 1rem 1rem 1rem;
     margin: 1rem 1rem -1rem 1rem;
     font-size: 2rem;
+    background-color: rgb(200, 217, 218);
+    border: 2px rgb(45, 44, 48) solid;
 }
 
 /*Navbar for section links*/
 #navbar {
     align-self: center;
     padding: 1rem 1rem 1rem 1rem;
-    margin: 0.25rem;
+    margin: 1.25rem 1rem -1rem 1rem;
+    background-color: rgb(200, 217, 218);
+    border: 2px rgb(45, 44, 48) solid;
+}
+
+nav a {
+    display: block;
+    padding: .2rem .2rem .2rem .2rem;
+}
+
+/*Link Styling*/
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(25, 150, 150);
+}
+
+a:visited {
+    color: rgb(145, 80, 150);
+}
+
+a:hover {
+    color: rgb(25, 200, 200)
+}
+
+a:active {
+    color: rgb(125, 250, 240)
 }
 
 /*Article/Section titles*/
@@ -106,21 +143,73 @@ article {
 
     /*Display for large devices: laptop/desktop*/
     .grid_container {
-        display: grid;
-        background-color: rgb(150, 150, 150);
+        display: flex;
+
     }
 
     body {
         width: fit-content;
+        background-color: palegreen;
+    }
+
+    #section1 {
+        display: grid;
+        grid-template-columns: 80% 20%;
+        background-image: url("media/header1.png");
+        background-repeat: repeat-x;
+        background-size: contain;
+        padding: 0.5rem;
+        margin: 1rem;
     }
 
     #page_title {
         color: black;
         align-self: center;
+        background-color: aliceblue;
     }
 
     #navbar {
-        align-self: center;
+        display: inherit;
+        align-content: space-evenly;
+        background-color: rgb(200, 217, 218);
+        border: 2px rgb(45, 44, 48) solid;
+        margin: .25rem;
+
+    }
+
+    #article01 {
+        display: grid;
+        grid-template-columns: 48% 4% 48%;
+    }
+
+    #a1_title {
+        font-size: 1.5rem;
+        grid-column: 1 / 2;
+
+    }
+
+    #a1_subheading {
+        padding: 1rem 3rem 1rem 3rem;
+        grid-column: 1 / 2;
+    }
+
+    #a01_p1 {
+        grid-column: 1 / 2;
+
+    }
+
+    #a01_p2 {
+        grid-column: 1 / 2;
+    }
+
+    #a01_p3 {
+        grid-column: 1 / 2;
+
+    }
+
+    #a01_image {
+        grid-column: 3 / 4;
+
     }
 }
 
