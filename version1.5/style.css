@@ -76,7 +76,7 @@ a:active {
 }
 
 #article01 {
-    background-color: rgb(139, 163, 161);
+
     position: relative;
 }
 
@@ -110,18 +110,6 @@ a:active {
     padding: 1rem 3rem 1rem 3rem;
     margin: auto;
     text-align: justify;
-}
-
-#divide:before {
-    content: " ";
-    position: absolute;
-    background-color: rgb(139, 163, 161);
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 120%;
-    z-index: -1;
-    transform: skewY(-4deg)
 }
 
 /*Liz image in Article02*/
@@ -204,7 +192,6 @@ footer {
 
     body {
         width: fit-content;
-        background-color: palegreen;
     }
 
     #section1 {
@@ -220,7 +207,7 @@ footer {
     #page_title {
         color: black;
         align-self: center;
-        background-color: aliceblue;
+        background-color: rgb(200, 217, 218);
     }
 
     #navbar {
@@ -262,12 +249,31 @@ footer {
 
     }
 
-    #a01_image {
-        grid-column: 3 / 4;
-        background-image: url("media/home.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        grid-row: 1 / 2;
+    #liz_bio {
+        align-self: stretch;
+        border-radius: 0px;
+        background-position: center;
+        padding: 12rem 12rem 12rem 12rem;
+        margin: 1rem 1rem 1rem 1rem;
+        align-self: left;
+    }
+
+    #marielle_bio {
+        align-self: stretch;
+        border-radius: 0px;
+        background-position: center;
+        padding: 12rem 12rem 12rem 12rem;
+        margin: 1rem 1rem 1rem 1rem;
+        align-self: left;
+    }
+
+    #rui_bio {
+        align-self: stretch;
+        border-radius: 0px;
+        background-position: center;
+        padding: 12rem 12rem 12rem 12rem;
+        margin: 1rem 1rem 1rem 1rem;
+        align-self: left;
     }
 }
 
