@@ -216,7 +216,7 @@ footer {
     #article01 {
         display: grid;
         grid-template-columns: 50% 2% 48%;
-        grid-template-rows: 10% 10% 10% 70%;
+        grid-template-rows: 10% 10% 5% 15% 60%;
         border: 15px rgb(20, 20, 20) solid;
     }
 
@@ -229,15 +229,17 @@ footer {
     }
 
     #a1_subheading {
-        padding: 1rem 3rem 1rem 3rem;
+        margin: 1rem 1rem 1rem 1rem;
+        padding: 0.5rem 3rem 0.5rem 3rem;
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 2/3;
         color: rgb(10, 60, 80);
     }
 
     #a01_p1 {
         grid-column: 1;
-        padding-bottom: 3rem;
+        padding:1rem 1rem 3rem 1rem;
+        grid-row: 4/6;
         color: rgb(10, 60, 80);
     }
 
@@ -247,7 +249,7 @@ footer {
         background-size: contain;
         background-repeat: repeat;
         background-position: 50%;
-        grid-row: 1 /4;
+        grid-row: 1 /6;
         grid-column: 3 /4;
 
         border-left: 15px rgb(20, 20, 20) solid;
