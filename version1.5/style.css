@@ -2,13 +2,13 @@
 .grid_container {
     display: flex;
     flex-flow: column wrap;
-    background-color: rgb(139, 163, 161);
+
 }
 
 body {
     width: fit-content;
-    /*background-color: rgb(174, 204, 194);*/
-    background-color: lemonchiffon;
+    background-color: rgb(174, 204, 194);
+
 }
 
 main {
@@ -25,6 +25,7 @@ article {
     background-image: url("media/header1.png");
     background-repeat: repeat-x;
     background-size: contain;
+
 }
 
 /*The Home of Liz Andrade*/
@@ -45,6 +46,7 @@ article {
     margin: 1.25rem 1rem -1rem 1rem;
     background-color: rgb(200, 217, 218);
     border: 2px rgb(45, 44, 48) solid;
+
 }
 
 nav a {
@@ -73,6 +75,29 @@ a:active {
     color: rgb(125, 250, 240)
 }
 
+#article01 {
+    background-color: rgb(139, 163, 161);
+    position: relative;
+}
+
+#a01_p1 {
+    margin: 0.25rem 1rem 0.25rem 1rem;
+    text-indent: 2.5rem;
+    font-size: 1.15rem;
+}
+
+#a01_p2 {
+    margin: 0.25rem 1rem 0.25rem 1rem;
+    text-indent: 2.5rem;
+    font-size: 1.15rem;
+}
+
+#a01_p3 {
+    margin: 0.25rem 1rem 1rem 1rem;
+    text-indent: 2.5rem;
+    font-size: 1.15rem;
+}
+
 /*Article/Section titles*/
 #a1_title {
     text-align: center;
@@ -85,6 +110,18 @@ a:active {
     padding: 1rem 3rem 1rem 3rem;
     margin: auto;
     text-align: justify;
+}
+
+#divide:before {
+    content: " ";
+    position: absolute;
+    background-color: rgb(139, 163, 161);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120%;
+    z-index: -1;
+    transform: skewY(-4deg)
 }
 
 /*Liz image in Article02*/
@@ -104,6 +141,10 @@ a:active {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
+    background-color: rgb(20, 20, 20);
+    border: 15px rgb(20, 20, 20) solid;
+    border-radius: 100%;
 }
 
 #marielle_bio {
@@ -121,6 +162,10 @@ a:active {
     background-repeat: no-repeat;
     background-position: center;
 
+    background-color: rgb(20, 20, 20);
+    border: 15px rgb(20, 20, 20) solid;
+    border-radius: 100%;
+
 }
 
 #rui_bio {
@@ -137,6 +182,16 @@ a:active {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
+    background-color: rgb(20, 20, 20);
+    border: 15px rgb(20, 20, 20) solid;
+    border-radius: 100%;
+}
+
+footer {
+    background-color: rgb(20, 20, 20);
+    color: rgb(200 200 200);
+    padding: 2rem 1rem 2rem 1rem;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -209,7 +264,10 @@ a:active {
 
     #a01_image {
         grid-column: 3 / 4;
-
+        background-image: url("media/home.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        grid-row: 1 / 2;
     }
 }
 
