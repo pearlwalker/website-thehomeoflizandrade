@@ -25,7 +25,7 @@ article {
     background-image: url("media/header1.png");
     background-repeat: repeat-x;
     background-size: contain;
-
+    border: 1px rgb(20, 20, 20)solid;
 }
 
 /*The Home of Liz Andrade*/
@@ -76,26 +76,17 @@ a:active {
 }
 
 #article01 {
-
+    background-color: rgb(144, 166, 163);
     position: relative;
+
+    border: 1px rgb(20, 20, 20) solid;
 }
 
 #a01_p1 {
     margin: 0.25rem 1rem 0.25rem 1rem;
     text-indent: 2.5rem;
     font-size: 1.15rem;
-}
-
-#a01_p2 {
-    margin: 0.25rem 1rem 0.25rem 1rem;
-    text-indent: 2.5rem;
-    font-size: 1.15rem;
-}
-
-#a01_p3 {
-    margin: 0.25rem 1rem 1rem 1rem;
-    text-indent: 2.5rem;
-    font-size: 1.15rem;
+    color: rgb(10, 60, 80);
 }
 
 /*Article/Section titles*/
@@ -104,12 +95,14 @@ a:active {
     padding: 1rem 3rem 1rem 3rem;
     margin: auto;
     font-size: 1.5rem;
+    color: rgb(5, 30, 60);
 }
 
 #a1_subheading {
     padding: 1rem 3rem 1rem 3rem;
     margin: auto;
     text-align: justify;
+    color: rgb(10, 60, 80);
 }
 
 /*Liz image in Article02*/
@@ -202,6 +195,7 @@ footer {
         background-size: contain;
         padding: 0.5rem;
         margin: 1rem;
+
     }
 
     #page_title {
@@ -221,32 +215,42 @@ footer {
 
     #article01 {
         display: grid;
-        grid-template-columns: 48% 4% 48%;
+        grid-template-columns: 50% 2% 48%;
+        grid-template-rows: 10% 10% 10% 70%;
+        border: 15px rgb(20, 20, 20) solid;
     }
 
     #a1_title {
         font-size: 1.5rem;
-        grid-column: 1 / 2;
-
+        grid-column: 1;
+        grid-row: 1;
+        padding: 3rem 0.1rem 0rem 0.1rem;
+        color: rgb(5, 30, 60);
     }
 
     #a1_subheading {
         padding: 1rem 3rem 1rem 3rem;
-        grid-column: 1 / 2;
+        grid-column: 1;
+        grid-row: 2;
+        color: rgb(10, 60, 80);
     }
 
     #a01_p1 {
-        grid-column: 1 / 2;
-
+        grid-column: 1;
+        padding-bottom: 3rem;
+        color: rgb(10, 60, 80);
     }
 
-    #a01_p2 {
-        grid-column: 1 / 2;
-    }
+    #a01_image {
+        background-color: rgb(20, 20, 20);
+        background-image: url("media/wolf.png");
+        background-size: contain;
+        background-repeat: repeat;
+        background-position: 50%;
+        grid-row: 1 /4;
+        grid-column: 3 /4;
 
-    #a01_p3 {
-        grid-column: 1 / 2;
-
+        border-left: 15px rgb(20, 20, 20) solid;
     }
 
     #liz_bio {
